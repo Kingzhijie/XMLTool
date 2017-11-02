@@ -143,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				4C013A531FAADAB600A3E0FF /* XMLDictionary.h */,
-				4C013A541FAADAB600A3E0FF /* XMLHelper.h */,
 				4C013A551FAADAB600A3E0FF /* XMLDictionary.m */,
+				4C013A541FAADAB600A3E0FF /* XMLHelper.h */,
 				4C013A561FAADAB600A3E0FF /* XMLHelper.m */,
 			);
 			path = XMLTool;
