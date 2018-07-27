@@ -15,8 +15,8 @@
 		4C013A301FAADA6900A3E0FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C013A2F1FAADA6900A3E0FF /* main.m */; };
 		4C013A3A1FAADA6900A3E0FF /* XMLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C013A391FAADA6900A3E0FF /* XMLDemoTests.m */; };
 		4C013A451FAADA6900A3E0FF /* XMLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C013A441FAADA6900A3E0FF /* XMLDemoUITests.m */; };
-		4CA7D21F210AAFB90093C15F /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7D21D210AAFB90093C15F /* XMLDictionary.m */; };
-		4CA7D220210AAFB90093C15F /* XMLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7D21E210AAFB90093C15F /* XMLHelper.m */; };
+		4C524449210AEE6E000D5882 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C524447210AEE6E000D5882 /* XMLDictionary.m */; };
+		4C52444A210AEE6E000D5882 /* XMLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C524448210AEE6E000D5882 /* XMLHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		4C013A401FAADA6900A3E0FF /* XMLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C013A441FAADA6900A3E0FF /* XMLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLDemoUITests.m; sourceTree = "<group>"; };
 		4C013A461FAADA6900A3E0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CA7D21B210AAFB90093C15F /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
-		4CA7D21C210AAFB90093C15F /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
-		4CA7D21D210AAFB90093C15F /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
-		4CA7D21E210AAFB90093C15F /* XMLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLHelper.m; sourceTree = "<group>"; };
+		4C524445210AEE6E000D5882 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		4C524446210AEE6E000D5882 /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
+		4C524447210AEE6E000D5882 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		4C524448210AEE6E000D5882 /* XMLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		4C013A141FAADA6900A3E0FF = {
 			isa = PBXGroup;
 			children = (
-				4CA7D21A210AAFB90093C15F /* XMLTool */,
+				4C524444210AEE6E000D5882 /* XMLTool */,
 				4C013A1F1FAADA6900A3E0FF /* XMLDemo */,
 				4C013A381FAADA6900A3E0FF /* XMLDemoTests */,
 				4C013A431FAADA6900A3E0FF /* XMLDemoUITests */,
@@ -139,15 +139,16 @@
 			path = XMLDemoUITests;
 			sourceTree = "<group>";
 		};
-		4CA7D21A210AAFB90093C15F /* XMLTool */ = {
+		4C524444210AEE6E000D5882 /* XMLTool */ = {
 			isa = PBXGroup;
 			children = (
-				4CA7D21B210AAFB90093C15F /* XMLDictionary.h */,
-				4CA7D21C210AAFB90093C15F /* XMLHelper.h */,
-				4CA7D21D210AAFB90093C15F /* XMLDictionary.m */,
-				4CA7D21E210AAFB90093C15F /* XMLHelper.m */,
+				4C524445210AEE6E000D5882 /* XMLDictionary.h */,
+				4C524446210AEE6E000D5882 /* XMLHelper.h */,
+				4C524447210AEE6E000D5882 /* XMLDictionary.m */,
+				4C524448210AEE6E000D5882 /* XMLHelper.m */,
 			);
-			path = XMLTool;
+			name = XMLTool;
+			path = ../XMLTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,10 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C013A251FAADA6900A3E0FF /* ViewController.m in Sources */,
-				4CA7D21F210AAFB90093C15F /* XMLDictionary.m in Sources */,
+				4C524449210AEE6E000D5882 /* XMLDictionary.m in Sources */,
 				4C013A301FAADA6900A3E0FF /* main.m in Sources */,
 				4C013A221FAADA6900A3E0FF /* AppDelegate.m in Sources */,
-				4CA7D220210AAFB90093C15F /* XMLHelper.m in Sources */,
+				4C52444A210AEE6E000D5882 /* XMLHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
